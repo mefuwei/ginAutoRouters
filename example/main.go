@@ -1,7 +1,7 @@
 package main
 
 import (
-	"demo/routers"
+	"example/routers"
 
 	"github.com/gin-gonic/gin"
 	"github.com/mefuwei/ginGenRouter"

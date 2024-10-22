@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a909fa6a-a8f6-408f-9c7e-f25b15b8c85c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ginAutoRouters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ginGenRouter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/controllers/index.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/controllers/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/controllers/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/example/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/example/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/routers/autoGenRouter.go" beforeDir="false" afterPath="$PROJECT_DIR$/example/routers/autoGenRouter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/routers/autoGenRouter.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/routers/autoGenRouter.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
