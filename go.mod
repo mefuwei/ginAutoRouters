@@ -1,4 +1,4 @@
-module ginGenRouter
+module github.com/mefuwei/ginGenRouter
 
 go 1.23.0
 
