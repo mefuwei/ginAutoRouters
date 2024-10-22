@@ -1,0 +1,43 @@
+[
+  {
+    "router": "/api/v1/get/api/",
+    "allowHttpMethods": [
+      "get"
+    ],
+    "summary": "GetApi  Summary",
+    "params": {
+      "abc": {
+        "dataType": "string",
+        "location": "path",
+        "defValue": "",
+        "required": false,
+        "summary": ""
+      }
+    },
+    "description": "GetApis 测试API 描述 "
+  },
+  {
+    "router": "/api/v1/GetApiList/",
+    "allowHttpMethods": [
+      "post"
+    ],
+    "summary": "GetApiList Summary",
+    "params": {
+      "id": {
+        "dataType": "int",
+        "location": "path",
+        "defValue": "Account ID",
+        "required": true,
+        "summary": "primary key"
+      },
+      "参数": {
+        "dataType": "参数类型",
+        "location": "查询方式",
+        "defValue": "默认值",
+        "required": false,
+        "summary": "备注"
+      }
+    },
+    "description": "GetApiList param not less than 3 "
+  }
+]
