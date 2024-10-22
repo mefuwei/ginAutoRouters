@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ginAutoRouters.iml" filepath="$PROJECT_DIR$/.idea/ginAutoRouters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ginGenRouter.iml" filepath="$PROJECT_DIR$/.idea/ginGenRouter.iml" />
     </modules>
   </component>
 </project>
