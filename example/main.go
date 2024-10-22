@@ -1,7 +1,7 @@
 package main
 
 import (
-	generate "autorouters"
+	ginGenRouter "autorouters"
 	"autorouters/example/routers"
 	"github.com/gin-gonic/gin"
 )
@@ -15,7 +15,7 @@ func main() {
 	})
 	autoRouter := r.Group("/")
 
-	generate.GenRouters("", "")
+	ginGenRouter.GenRouters("", "")
 	routers.RegisterRoutes(autoRouter)
 	r.Run() // listen and serve on 0.0.0.0:8080
 }
