@@ -1,8 +1,3 @@
-# ginGenRouter
-Auto generate routers from gin controller comments and generate router code to file
-# Example
-```go
-
 package main
 
 import (
@@ -21,12 +16,7 @@ func main() {
 	})
 
 	ginGenRouter.GenRouters("", "")
-	// 创建路由组并注册路由,首次需要注销掉
-	//autoRouter := r.Group("/")
-	// routers.RegisterRoutes(autoRouter)
-	//
+	autoRouter := r.Group("/")
+	routers.RegisterRoutes(autoRouter)
 	r.Run() // listen and serve on 0.0.0.0:8080
 }
-
-
-```
