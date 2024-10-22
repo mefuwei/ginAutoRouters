@@ -2,7 +2,7 @@
 package routers
 
 import (
-	controllers "demo/controllers"
+	controllers "example/controllers"
 	gin "github.com/gin-gonic/gin"
 )
 
